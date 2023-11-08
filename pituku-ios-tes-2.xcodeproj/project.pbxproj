@@ -13,7 +13,11 @@
 		CD9F7C0E2AFB8F2200DF7E7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7C0D2AFB8F2200DF7E7D /* Preview Assets.xcassets */; };
 		CD9F7C182AFB8F4700DF7E7D /* ModelArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C172AFB8F4700DF7E7D /* ModelArticleList.swift */; };
 		CD9F7C1A2AFB8FC000DF7E7D /* ModelArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C192AFB8FC000DF7E7D /* ModelArticleDetail.swift */; };
-		CD9F7C1C2AFB900900DF7E7D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7C1B2AFB900900DF7E7D /* Podfile */; };
+		CD9F7C1E2AFB916700DF7E7D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C1D2AFB916700DF7E7D /* ContentViewModel.swift */; };
+		CD9F7C212AFB928900DF7E7D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C202AFB928900DF7E7D /* WebService.swift */; };
+		CDC97B612AFC3DF800B364E0 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC97B602AFC3DF800B364E0 /* ContentDetailView.swift */; };
+		CDC97B632AFC3E2100B364E0 /* ContentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC97B622AFC3E2100B364E0 /* ContentDetailViewModel.swift */; };
+		CDCBC7332AFC42E400E8AFBA /* ContentDetailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBC7322AFC42E400E8AFBA /* ContentDetailWebView.swift */; };
 		E18FEECC569E4718FD24DBCF /* Pods_pituku_ios_tes_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94310D881983FFABB5D6680A /* Pods_pituku_ios_tes_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +32,12 @@
 		CD9F7C0D2AFB8F2200DF7E7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD9F7C172AFB8F4700DF7E7D /* ModelArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelArticleList.swift; sourceTree = "<group>"; };
 		CD9F7C192AFB8FC000DF7E7D /* ModelArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelArticleDetail.swift; sourceTree = "<group>"; };
-		CD9F7C1B2AFB900900DF7E7D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CD9F7C1D2AFB916700DF7E7D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CD9F7C202AFB928900DF7E7D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CDC97B602AFC3DF800B364E0 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		CDC97B622AFC3E2100B364E0 /* ContentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewModel.swift; sourceTree = "<group>"; };
+		CDCBC7322AFC42E400E8AFBA /* ContentDetailWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailWebView.swift; sourceTree = "<group>"; };
+		CDCBC7352AFC44E800E8AFBA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +55,10 @@
 		66AEB1AA0411DDD9340D39B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				CDCBC7352AFC44E800E8AFBA /* Podfile */,
 				8DB697DB0847C5F6997A2B99 /* Pods-pituku-ios-tes-2.debug.xcconfig */,
 				22D87917209A0C89C1136890 /* Pods-pituku-ios-tes-2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,13 +91,12 @@
 		CD9F7C052AFB8F2100DF7E7D /* pituku-ios-tes-2 */ = {
 			isa = PBXGroup;
 			children = (
+				CD9F7C1F2AFB928300DF7E7D /* Services */,
 				CD9F7C162AFB8F3A00DF7E7D /* ViewModel */,
 				CD9F7C152AFB8F3800DF7E7D /* View */,
 				CD9F7C142AFB8F3200DF7E7D /* Model */,
 				CD9F7C062AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift */,
-				CD9F7C082AFB8F2100DF7E7D /* ContentView.swift */,
 				CD9F7C0A2AFB8F2200DF7E7D /* Assets.xcassets */,
-				CD9F7C1B2AFB900900DF7E7D /* Podfile */,
 				CD9F7C0C2AFB8F2200DF7E7D /* Preview Content */,
 			);
 			path = "pituku-ios-tes-2";
@@ -114,6 +122,9 @@
 		CD9F7C152AFB8F3800DF7E7D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD9F7C082AFB8F2100DF7E7D /* ContentView.swift */,
+				CDC97B602AFC3DF800B364E0 /* ContentDetailView.swift */,
+				CDCBC7322AFC42E400E8AFBA /* ContentDetailWebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,8 +132,18 @@
 		CD9F7C162AFB8F3A00DF7E7D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CD9F7C1D2AFB916700DF7E7D /* ContentViewModel.swift */,
+				CDC97B622AFC3E2100B364E0 /* ContentDetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD9F7C1F2AFB928300DF7E7D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C202AFB928900DF7E7D /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9F7C1C2AFB900900DF7E7D /* Podfile in Resources */,
 				CD9F7C0E2AFB8F2200DF7E7D /* Preview Assets.xcassets in Resources */,
 				CD9F7C0B2AFB8F2200DF7E7D /* Assets.xcassets in Resources */,
 			);
@@ -240,10 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9F7C212AFB928900DF7E7D /* WebService.swift in Sources */,
+				CDCBC7332AFC42E400E8AFBA /* ContentDetailWebView.swift in Sources */,
+				CDC97B632AFC3E2100B364E0 /* ContentDetailViewModel.swift in Sources */,
 				CD9F7C182AFB8F4700DF7E7D /* ModelArticleList.swift in Sources */,
 				CD9F7C092AFB8F2100DF7E7D /* ContentView.swift in Sources */,
+				CDC97B612AFC3DF800B364E0 /* ContentDetailView.swift in Sources */,
 				CD9F7C072AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift in Sources */,
 				CD9F7C1A2AFB8FC000DF7E7D /* ModelArticleDetail.swift in Sources */,
+				CD9F7C1E2AFB916700DF7E7D /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +312,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -350,7 +375,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

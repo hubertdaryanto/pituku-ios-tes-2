@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct ModelArticleListResponse: Decodable {
+    let data: [ModelArticleList]
+}
+
 struct ModelArticleList: Decodable {
     let id: String
     let title: String

@@ -7,6 +7,12 @@
 
 import Foundation
 
+struct ModelArticleDetailResponse: Decodable {
+    let data: ModelArticleDetail
+}
+
 struct ModelArticleDetail: Decodable {
     let body: String
+    let title: String
+    let description: String
 }
