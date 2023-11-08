@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9F7C072AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C062AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift */; };
+		CD9F7C092AFB8F2100DF7E7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C082AFB8F2100DF7E7D /* ContentView.swift */; };
+		CD9F7C0B2AFB8F2200DF7E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7C0A2AFB8F2200DF7E7D /* Assets.xcassets */; };
+		CD9F7C0E2AFB8F2200DF7E7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7C0D2AFB8F2200DF7E7D /* Preview Assets.xcassets */; };
+		CD9F7C182AFB8F4700DF7E7D /* ModelArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C172AFB8F4700DF7E7D /* ModelArticleList.swift */; };
+		CD9F7C1A2AFB8FC000DF7E7D /* ModelArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7C192AFB8FC000DF7E7D /* ModelArticleDetail.swift */; };
+		CD9F7C1C2AFB900900DF7E7D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7C1B2AFB900900DF7E7D /* Podfile */; };
+		E18FEECC569E4718FD24DBCF /* Pods_pituku_ios_tes_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94310D881983FFABB5D6680A /* Pods_pituku_ios_tes_2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D87917209A0C89C1136890 /* Pods-pituku-ios-tes-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2.release.xcconfig"; sourceTree = "<group>"; };
+		8DB697DB0847C5F6997A2B99 /* Pods-pituku-ios-tes-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2.debug.xcconfig"; sourceTree = "<group>"; };
+		94310D881983FFABB5D6680A /* Pods_pituku_ios_tes_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F7C032AFB8F2100DF7E7D /* pituku-ios-tes-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pituku-ios-tes-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F7C062AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_2App.swift; sourceTree = "<group>"; };
+		CD9F7C082AFB8F2100DF7E7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD9F7C0A2AFB8F2200DF7E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9F7C0D2AFB8F2200DF7E7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD9F7C172AFB8F4700DF7E7D /* ModelArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelArticleList.swift; sourceTree = "<group>"; };
+		CD9F7C192AFB8FC000DF7E7D /* ModelArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelArticleDetail.swift; sourceTree = "<group>"; };
+		CD9F7C1B2AFB900900DF7E7D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9F7C002AFB8F2100DF7E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18FEECC569E4718FD24DBCF /* Pods_pituku_ios_tes_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66AEB1AA0411DDD9340D39B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DB697DB0847C5F6997A2B99 /* Pods-pituku-ios-tes-2.debug.xcconfig */,
+				22D87917209A0C89C1136890 /* Pods-pituku-ios-tes-2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		804C202CB4002FC55BE13DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94310D881983FFABB5D6680A /* Pods_pituku_ios_tes_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD9F7BFA2AFB8F2100DF7E7D = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C052AFB8F2100DF7E7D /* pituku-ios-tes-2 */,
+				CD9F7C042AFB8F2100DF7E7D /* Products */,
+				66AEB1AA0411DDD9340D39B4 /* Pods */,
+				804C202CB4002FC55BE13DA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9F7C042AFB8F2100DF7E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C032AFB8F2100DF7E7D /* pituku-ios-tes-2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9F7C052AFB8F2100DF7E7D /* pituku-ios-tes-2 */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C162AFB8F3A00DF7E7D /* ViewModel */,
+				CD9F7C152AFB8F3800DF7E7D /* View */,
+				CD9F7C142AFB8F3200DF7E7D /* Model */,
+				CD9F7C062AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift */,
+				CD9F7C082AFB8F2100DF7E7D /* ContentView.swift */,
+				CD9F7C0A2AFB8F2200DF7E7D /* Assets.xcassets */,
+				CD9F7C1B2AFB900900DF7E7D /* Podfile */,
+				CD9F7C0C2AFB8F2200DF7E7D /* Preview Content */,
+			);
+			path = "pituku-ios-tes-2";
+			sourceTree = "<group>";
+		};
+		CD9F7C0C2AFB8F2200DF7E7D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C0D2AFB8F2200DF7E7D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD9F7C142AFB8F3200DF7E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F7C172AFB8F4700DF7E7D /* ModelArticleList.swift */,
+				CD9F7C192AFB8FC000DF7E7D /* ModelArticleDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD9F7C152AFB8F3800DF7E7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD9F7C162AFB8F3A00DF7E7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9F7C022AFB8F2100DF7E7D /* pituku-ios-tes-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9F7C112AFB8F2200DF7E7D /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2" */;
+			buildPhases = (
+				4CD8337A521C723ADF8B1257 /* [CP] Check Pods Manifest.lock */,
+				CD9F7BFF2AFB8F2100DF7E7D /* Sources */,
+				CD9F7C002AFB8F2100DF7E7D /* Frameworks */,
+				CD9F7C012AFB8F2100DF7E7D /* Resources */,
+				BC57F846FCF81B22AFA0F44A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pituku-ios-tes-2";
+			productName = "pituku-ios-tes-2";
+			productReference = CD9F7C032AFB8F2100DF7E7D /* pituku-ios-tes-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9F7BFB2AFB8F2100DF7E7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CD9F7C022AFB8F2100DF7E7D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CD9F7BFE2AFB8F2100DF7E7D /* Build configuration list for PBXProject "pituku-ios-tes-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9F7BFA2AFB8F2100DF7E7D;
+			productRefGroup = CD9F7C042AFB8F2100DF7E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9F7C022AFB8F2100DF7E7D /* pituku-ios-tes-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9F7C012AFB8F2100DF7E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F7C1C2AFB900900DF7E7D /* Podfile in Resources */,
+				CD9F7C0E2AFB8F2200DF7E7D /* Preview Assets.xcassets in Resources */,
+				CD9F7C0B2AFB8F2200DF7E7D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CD8337A521C723ADF8B1257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC57F846FCF81B22AFA0F44A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9F7BFF2AFB8F2100DF7E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F7C182AFB8F4700DF7E7D /* ModelArticleList.swift in Sources */,
+				CD9F7C092AFB8F2100DF7E7D /* ContentView.swift in Sources */,
+				CD9F7C072AFB8F2100DF7E7D /* pituku_ios_tes_2App.swift in Sources */,
+				CD9F7C1A2AFB8FC000DF7E7D /* ModelArticleDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD9F7C0F2AFB8F2200DF7E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9F7C102AFB8F2200DF7E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9F7C122AFB8F2200DF7E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB697DB0847C5F6997A2B99 /* Pods-pituku-ios-tes-2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pituku-ios-tes-2/Preview Content\"";
+				DEVELOPMENT_TEAM = AB6S3CVVK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hubertdaryanto.pituku-ios-tes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9F7C132AFB8F2200DF7E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D87917209A0C89C1136890 /* Pods-pituku-ios-tes-2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pituku-ios-tes-2/Preview Content\"";
+				DEVELOPMENT_TEAM = AB6S3CVVK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hubertdaryanto.pituku-ios-tes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9F7BFE2AFB8F2100DF7E7D /* Build configuration list for PBXProject "pituku-ios-tes-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F7C0F2AFB8F2200DF7E7D /* Debug */,
+				CD9F7C102AFB8F2200DF7E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9F7C112AFB8F2200DF7E7D /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F7C122AFB8F2200DF7E7D /* Debug */,
+				CD9F7C132AFB8F2200DF7E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9F7BFB2AFB8F2100DF7E7D /* Project object */;
+}
